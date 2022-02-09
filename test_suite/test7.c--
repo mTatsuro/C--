@@ -1,0 +1,21 @@
+int func(int a, int b)
+{
+	write 1;
+	writeln;
+
+	return a * b;
+}
+
+int main()
+{
+	int x;
+	int y;
+
+	x = 3;
+	y = 4;
+
+	write func(3, 4);
+	writeln;
+
+	return 0;
+}

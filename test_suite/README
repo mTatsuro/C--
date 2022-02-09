@@ -1,0 +1,11 @@
+This directory contains a few examples of correct C-- programs that you can
+use to test your lexical analyzer, parser and code generator.
+
+This is NOT a complete test suite; it is up to you to come up with good test 
+programs to ensure that your lexer, parser, and code generator can correctly 
+tokenize and parse C-- code and correctly translate it to machine code.   
+
+If you are unsure about what is and is not valid C--, convert your C-- 
+program to C code (replace read with scanf, write and writeln with printf, 
+and add a #include <stdio.h>), and try compiling with gcc and see what 
+happens.

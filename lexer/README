@@ -1,0 +1,12 @@
+* to compile: make 
+
+* to run the lexer:
+        ./lexer source_code_file
+  example:
+        ./lexer ../test_suite/test_arrays.c-- 
+
+* if you add more .h files, put them in the includes subdirectory
+* if you add more .c files, refer to the associated .o file in the
+_OBJ def in the Makefile 
+* definitely add more comments to this starting point code!
+

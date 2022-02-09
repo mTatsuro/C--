@@ -1,0 +1,50 @@
+#!/usr/bin/tcsh
+#
+# an example of a very simple script for running the parser program
+# on some test programs (t1.c--, ... , t5.c--- in this example)
+# To run:
+#    first change the names of the C-- files to real files in your test_suite
+#    then:
+#    ./run
+#
+echo '---------'
+echo 'test 1:'
+echo '---------'
+cat ../test_suite/test1.c--
+./parser ../test_suite/test1.c--
+echo ' '
+echo '---------'
+echo 'test 2:'
+echo '---------'
+cat ../test_suite/test2.c--
+./parser ../test_suite/test2.c--
+echo ' '
+echo '---------'
+echo 'test 3:'
+echo '---------'
+cat ../test_suite/test3.c--
+./parser ../test_suite/test3.c--
+echo ' '
+echo '---------'
+echo 'test 4:'
+echo '---------'
+cat ../test_suite/test4.c--
+./parser ../test_suite/test4.c--
+echo ' '
+echo '---------'
+echo 'test 5:'
+echo '---------'
+cat ../test_suite/test5.c--
+./parser ../test_suite/test5.c--
+echo ' '
+echo '---------'
+echo 'test 6:'
+echo '---------'
+cat ../test_suite/test6.c--
+./parser ../test_suite/test6.c--
+echo ' '
+echo '---------'
+echo 'test 7:'
+echo '---------'
+cat ../test_suite/test7.c--
+./parser ../test_suite/test7.c--

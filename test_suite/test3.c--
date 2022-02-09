@@ -1,0 +1,14 @@
+int main()
+{
+	if (1)
+		write 1;
+	else
+		write 0;
+
+	if (0)
+		write 1;
+	else
+		write 0;
+
+	return 0;
+}

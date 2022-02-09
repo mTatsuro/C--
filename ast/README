@@ -1,0 +1,15 @@
+run 'make depend' once
+then 'make' to build
+
+builds one sample program:
+
+  test_prog:
+
+     to draw AST to stdout:
+        ./test_prog
+
+     to draw AST to graphviz formatted file
+        ./test_prog outfile.gv
+
+	Then view the AST using:
+	   dotty outfile.gv

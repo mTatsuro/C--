@@ -1,0 +1,15 @@
+int main()
+{
+  x = 5 - 8 / 4;
+  write x;
+  if (x==3)
+    write 1;
+  else
+    write 0;
+  int a[4];
+	a[0] = 1;
+  a[1] = 2;
+  a[2] = 3;
+  a[3] = 4;
+  return;
+}

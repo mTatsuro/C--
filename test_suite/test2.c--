@@ -1,0 +1,8 @@
+int y;
+char ch;
+int main() {
+  int x;
+  int y;
+  x = 5 - 8 / 4;
+  write x;
+}

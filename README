@@ -1,0 +1,6 @@
+This directory contains the structure of all parts of the project
+
+files for project 1, the lexer, are in the includes and lexer subdirectories
+
+the other subdirectories are empty and will be filled in with .c and .h
+files in subsequent assignments
